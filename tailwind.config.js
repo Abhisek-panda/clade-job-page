@@ -10,10 +10,12 @@ export default {
         accent: "#DC4A2D",
         primary: "#3D3D3D",
         secondary: "#6E6D6D",
+        border: "#E7E7E7",
       },
       fontFamily: {
         satoshi: ["Satoshi", "sans-serif"],
         general: ["General Sans", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       lineHeight: {
         default: "27px",

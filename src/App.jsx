@@ -17,10 +17,11 @@ function App() {
         <JobPreview />
       </div>
       <div className="flex w-full justify-between">
-        <div>
-          <div>
+        <div className="flex ml-[100px] flex-col">
+          <div className="w-max">
             <JobTitle />
           </div>
+          <div className="h-[1px] bg-border"></div>
           <div>
             <JobRequirement />
           </div>
