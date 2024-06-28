@@ -16,25 +16,25 @@ function App() {
       <div className="flex items-center w-full h-[67px] border-solid border-[1px] border-[#E7E7E7] ">
         <JobPreview />
       </div>
-      <div className="flex w-full justify-between">
-        <div className="flex ml-[100px] flex-col">
-          <div className="w-max">
+      <div className="flex justify-between">
+        <div className="flex flex-col w-[73%] h-full">
+          <div className="w-max ml-[100px]">
             <JobTitle />
           </div>
-          <div className="h-[1px] bg-border w-[1319px] mt-[19px]"></div>
-          <div>
+          <div className="h-[1px] bg-border w-full mt-[19px]"></div>
+          <div className="ml-[100px]">
             <JobRequirement />
           </div>
-          <div className="h-[1px] bg-border w-[1319px] mt-[19px]"></div>
-          <div className="h-max w-max">
+          <div className="h-[1px] bg-border w-full mt-[19px]"></div>
+          <div className="h-max w-max ml-[100px]">
             <JobDesc />
           </div>
-          <div className="h-[1px] bg-border w-[1319px] mt-[19px]"></div>
-          <footer className="w-max h-max">
+          <div className="h-[1px] bg-border w-full mt-[19px]"></div>
+          <footer className="w-max h-max ml-[100px]">
             <Company />
           </footer>
         </div>
-        <div className="w-full h-\ border-2 border-black border-solid">
+        <div className="h-[1150px] w-[27%] mx-auto border-[1px] border-solid border-border border-r-0 border-b-0 border-t-0 ">
           <JobApplication />
         </div>
       </div>
