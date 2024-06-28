@@ -28,7 +28,7 @@ const JobRequirement = () => {
             return (
               <div
                 key={title}
-                className="w-max flex border-[1px] border-solid border-[#D0D5DD] rounded-md gap-[8px] font-general px-1.5 py-1 bg-[#ffffff]"
+                className="w-max flex border-[1px] border-solid border-[#D0D5DD] rounded-md gap-[8px] font-general px-1.5 py-1 bg-[#ffffff] hover:opacity-40"
               >
                 <img
                   src={imageUrl}

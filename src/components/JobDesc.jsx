@@ -13,17 +13,17 @@ const JobDesc = () => {
           <li>Work on conception and vizualizing </li>
           <li>Work on graphics content and other graphic related work</li>
         </ol>
-        <p>Benifits</p>
-        <ul className="list-disc ml-4">
+        <p>Benefits:</p>
+        <ul className="list-disc ml-6">
           <li>Health Insurance</li>
           <li>Provident Fund</li>
         </ul>
         <p>Schedule:</p>
-        <ul className="list-disc ml-4">
+        <ul className="list-disc ml-6">
           <li>Day Shift</li>
         </ul>
         <p>Supplemental Pay types:</p>
-        <ul className="list-disc ml-4">
+        <ul className="list-disc ml-6">
           <li>Perfomance Bonus</li>
           <li>Yearly Bonus</li>
         </ul>

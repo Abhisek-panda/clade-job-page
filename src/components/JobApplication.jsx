@@ -32,17 +32,17 @@ const JobApplication = () => {
   return (
     <div className="mt-[36px] flex flex-col gap-4 justify-center items-center">
       <div className="flex gap-4 items-center justify-between w-[360px] h-max ">
-        <div className="rounded-lg gap-[10px] border-[0.8px] border-solid border-accent bg-[#FEF4F2] py-3 px-6 flex items-center w-[172px] justify-center ">
+        <div className="rounded-lg gap-[10px] border-[0.8px] border-solid border-accent bg-[#FEF4F2] py-3 px-6 flex items-center w-[172px] justify-center hover:opacity-50 ">
           <img
             src={deleteLogo}
             alt="delete icon"
             className="h-[15px] w-[15px] "
           />
-          <button className="font-general text-base leading-[21.6px] text-accent font-medium ">
+          <button className="font-general text-base leading-[21.6px] text-accent font-medium  ">
             Delete Job
           </button>
         </div>
-        <div className="rounded-lg border-2 border-solid border-[#FED3CA] bg-accent  text-white py-3 px-6 flex items-center justify-center gap-[10px] w-[172px] ">
+        <div className="rounded-lg border-2 border-solid border-[#FED3CA] bg-accent  text-white py-3 px-6 flex items-center justify-center gap-[10px] w-[172px] hover:opacity-50 ">
           <img src={editLogo} alt="" className="h-[15px] w-[15px] " />
           <button className="font-general font-medium text-base leading-[21.6px]">
             Edit Job

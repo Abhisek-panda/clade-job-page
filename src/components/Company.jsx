@@ -27,7 +27,7 @@ const companyDetails = [
 
 const Company = () => {
   return (
-    <div className="flex flex-col gap-4 mt-[33px]">
+    <div className="flex flex-col gap-12 mt-[33px]">
       <div className="flex items-center gap-[10px]">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr42lt0uL4-RkQGD5AoUhQGn4OGr-foggxTQ&s"
@@ -39,7 +39,7 @@ const Company = () => {
         </p>
       </div>
       <div className="flex gap-12 font-general">
-        <div className="flex flex-col gap-12">
+        <div className="flex flex-col gap-4">
           {companyDetails.slice(0, 3).map(({ title, content, index }) => {
             return (
               <div key={index} className="flex flex-col gap-2 h-max w-max">
@@ -53,7 +53,7 @@ const Company = () => {
             );
           })}
         </div>
-        <div className="flex flex-col gap-12">
+        <div className="flex flex-col gap-4">
           {companyDetails.slice(3, 6).map(({ title, content, index }) => {
             return (
               <div key={index} className="flex flex-col gap-2 h-max w-max">

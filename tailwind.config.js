@@ -20,6 +20,9 @@ export default {
       lineHeight: {
         default: "27px",
       },
+      animation: {
+        slowPing: "ping 2s cubic-bezier(0, 0, 0.2, 1) infinite",
+      },
     },
   },
   plugins: [],

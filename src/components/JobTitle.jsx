@@ -15,9 +15,12 @@ const JobTitle = () => {
           <p className="text-[14px] leading-[18.9px] font-medium text-[#888888]">
             posted 2 days ago
           </p>
-          <div className="w-max border-[1px] border-solid border-[#ABEFC6] bg-[#ECFDF3] rounded-full text-[#067647] capitalize flex gap-1 p-1">
+          <div
+            className="w-max h-max border-[1px] border-solid border-[#ABEFC6] bg-[#ECFDF3] rounded-full capitalize flex gap-1 pt-1 pr-2 pb-1 pl-[6px]  transition-all text-[#067647] hover:opacity-40 
+          "
+          >
             <img src={dotLogo} alt="green notification dot" />
-            <p className="font-inter text-center text-xs leading-[18px] font-medium ">
+            <p className="font-inter text-center text-xs leading-[18px] font-medium  transition-all">
               open
             </p>
           </div>
