@@ -21,19 +21,20 @@ function App() {
           <div className="w-max">
             <JobTitle />
           </div>
-          <div className="h-[1px] bg-border w-[1319px] mt-[36px]"></div>
+          <div className="h-[1px] bg-border w-[1319px] mt-[19px]"></div>
           <div>
             <JobRequirement />
           </div>
           <div className="h-[1px] bg-border w-[1319px] mt-[19px]"></div>
-          <div>
+          <div className="h-max w-max">
             <JobDesc />
           </div>
-          <div>
+          <div className="h-[1px] bg-border w-[1319px] mt-[19px]"></div>
+          <footer className="w-max h-max">
             <Company />
-          </div>
+          </footer>
         </div>
-        <div>
+        <div className="w-full h-\ border-2 border-black border-solid">
           <JobApplication />
         </div>
       </div>
