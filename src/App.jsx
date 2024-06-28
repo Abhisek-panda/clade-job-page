@@ -13,10 +13,10 @@ function App() {
       <div className=" h-[109px] shadow-nav gap-[10px] m-[10px]">
         <Navbar />
       </div>
-      <div>
+      <div className="w-full h-[67px] border-solid border-[1px] border-[#E7E7E7]">
         <JobPreview />
       </div>
-      <div className="flex flex">
+      <div className="flex">
         <div>
           <div>
             <JobTitle />

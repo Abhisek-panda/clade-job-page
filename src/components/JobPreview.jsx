@@ -1,6 +1,6 @@
 const JobPreview = () => {
   return (
-    <div>
+    <div className="flex ">
       <p>Job Preview</p>
       <p>Applicants</p>
       <p>Match</p>
