@@ -18,13 +18,13 @@ const JobTitle = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 font-general font-medium text-xl leading-[27px] text-[#5D5D5D]">
-        <div className="flex gap-2 items-center">
+      <div className="flex gap-4 font-general font-medium text-xl leading-[27px] text-[#5D5D5D] text-left">
+        <div className="flex gap-3 items-center">
           <img src="./src/assets/location-icon.svg" alt="location icon" />
           <p className="text-nowrap">Delaware, USA</p>
         </div>
         <img src="./src/assets/grey-dot.svg" alt="" />
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-3 items-center">
           <img src="./src/assets/money-icon.svg" alt="" />
           <p>$300k - $400k</p>
         </div>
